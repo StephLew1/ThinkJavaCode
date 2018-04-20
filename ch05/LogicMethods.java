@@ -1,21 +1,26 @@
 public class LogicMethods
 {
-    public staic void main ( String[] args )
-
-        int
-
+    public static void main(String[] args )
     {
-        System.out.println("The number is large ");
-        printIsLarge( number 450 )
+        System.out.println("Logic Methods");
+        printIsLargeOrSmall(100) ;
+        printIsLargeOrSmall(75);
     }
 
-    public static void main ( String[] args )
-
-
+    private static void printIsLargeOrSmall (int number)
     {
-        if (number > 85) ;
+        if( number > 99 )
+        if( number < 10 )
+
+
         {
-            System.out.println
+            System.out.println("The number is large " ) ;
+            System.out.println("The number is small ") ;
         }
+
     }
+
+
+
+
 }
